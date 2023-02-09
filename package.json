@@ -4,7 +4,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "concurrently 'vite build --watch --outDir docs/dist/' 'npm run run-sample'",
+    "dev": "concurrently 'vite build --watch --config vite.config.dev.ts --outDir docs/dist/' 'npm run run-sample'",
     "build": "run-p type-check build-only",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
