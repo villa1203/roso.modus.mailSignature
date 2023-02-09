@@ -80,6 +80,12 @@
             @click="copySignatureInClipBoard"
             class="fp-ui-button"
         >Selectionner le texte de signature</button>
+        <p>
+          Une fois le texte sélectionné
+          (le texte devient vert quand il est&nbsp;sélectionné),
+          copié le texte et collez-le dans votre<br>outil de messagerie mail,
+          dans les paramètres pour les signatures&nbsp;automatiques.
+        </p>
       </div>
 
     </div>
@@ -163,6 +169,16 @@ export default defineComponent({
     padding:        var(--wcm-line-height);
     margin-bottom:  var(--wcm-line-height);
     background: white;
+
+    > *::-moz-selection { /* Code for Firefox */
+      color: lightseagreen;
+      background: #b0fdf6;
+    }
+
+    >* ::selection {
+      color: lightseagreen;
+      background: #b0fdf6;
+    }
 
     > table {
       pointer-events: none;
