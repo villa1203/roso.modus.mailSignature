@@ -7746,7 +7746,7 @@ const _sfc_main = defineComponent({
   }
 });
 
-const _style_0 = ".v-mail-signature-generator[data-v-1c4e690b] {\n  --wcm-line-height: 20px;\n  --wcm-font-size: 18px;\n  max-width: 30em;\n  font-family: sans-serif;\n  min-height: calc(100vh - 200px);\n  padding-bottom: var(--wcm-line-height);\n  font-size: var(--wcm-font-size);\n  line-height: var(--wcm-line-height);\n  margin: auto;\n}\n.v-mail-signature-generator .v-mail-signature-generator__container[data-v-1c4e690b] {\n  padding: var(--wcm-line-height);\n  margin-bottom: var(--wcm-line-height);\n  background: white;\n}\n.v-mail-signature-generator .v-mail-signature-generator__container > *[data-v-1c4e690b]::-moz-selection { /* Code for Firefox */\n  color: lightseagreen;\n  background: #b0fdf6;\n}\n.v-mail-signature-generator .v-mail-signature-generator__container > *[data-v-1c4e690b] ::selection {\n  color: lightseagreen;\n  background: #b0fdf6;\n}\n.v-mail-signature-generator .v-mail-signature-generator__container > table[data-v-1c4e690b] {\n  pointer-events: none;\n}\nh1[data-v-1c4e690b] {\n  font-size: calc(var(--wcm-font-size) * 2);\n  line-height: calc(var(--wcm-line-height) * 2);\n}\n.v-mail-signature-generator__child-no-margin > *[data-v-1c4e690b]:first-child {\n  margin-top: 0;\n}\n.v-mail-signature-generator__child-no-margin > *[data-v-1c4e690b]:last-child {\n  margin-bottom: 0;\n}\n.fp-grid-container[data-v-1c4e690b] {\n  display: flex;\n  flex-wrap: wrap;\n}\n.fp-ui-form[data-v-1c4e690b] {\n  display: flex;\n  flex-wrap: wrap;\n}\n.fp-ui-form > input[data-v-1c4e690b] {\n  all: unset;\n  display: block;\n  position: relative;\n  width: 100%;\n  cursor: pointer;\n  box-sizing: border-box;\n  box-shadow: inset 0 0 0 2px currentColor;\n  padding: calc(var(--wcm-line-height) / 2);\n  margin-bottom: var(--wcm-line-height);\n}\n.fp-grid-coll-24-24[data-v-1c4e690b] {\n  width: 100%;\n}\n.fp-ui-button[data-v-1c4e690b] {\n  all: unset;\n  line-height: var(--wcm-line-height);\n  font-size: var(--wcm-font-size);\n  font-weight: 400;\n  margin: 0 auto;\n  cursor: pointer;\n  display: block;\n  box-sizing: border-box;\n  box-shadow: inset 0 0 0 2px currentColor;\n  padding: calc(var(--wcm-line-height) / 2) calc(var(--wcm-line-height));\n}";
+const _style_0 = ".v-mail-signature-generator[data-v-5f1bec24] {\n  --wcm-line-height: 20px;\n  --wcm-font-size: 18px;\n  max-width: 30em;\n  font-family: sans-serif;\n  min-height: calc(100vh - 200px);\n  padding-bottom: var(--wcm-line-height);\n  font-size: var(--wcm-font-size);\n  line-height: var(--wcm-line-height);\n  margin: auto;\n}\n.v-mail-signature-generator .v-mail-signature-generator__container[data-v-5f1bec24] {\n  padding: var(--wcm-line-height);\n  margin-bottom: var(--wcm-line-height);\n  background: white;\n}\n.v-mail-signature-generator .v-mail-signature-generator__container > *[data-v-5f1bec24]::-moz-selection { /* Code for Firefox */\n  color: lightseagreen;\n  background: #b0fdf6;\n}\n.v-mail-signature-generator .v-mail-signature-generator__container > *[data-v-5f1bec24] ::selection {\n  color: lightseagreen;\n  background: #b0fdf6;\n}\n.v-mail-signature-generator .v-mail-signature-generator__container > table[data-v-5f1bec24] {\n  pointer-events: none;\n}\nh1[data-v-5f1bec24] {\n  font-size: calc(var(--wcm-font-size) * 2);\n  line-height: calc(var(--wcm-line-height) * 2);\n}\n.v-mail-signature-generator__child-no-margin > *[data-v-5f1bec24]:first-child {\n  margin-top: 0;\n}\n.v-mail-signature-generator__child-no-margin > *[data-v-5f1bec24]:last-child {\n  margin-bottom: 0;\n}\n.fp-grid-container[data-v-5f1bec24] {\n  display: flex;\n  flex-wrap: wrap;\n}\n.fp-ui-form[data-v-5f1bec24] {\n  display: flex;\n  flex-wrap: wrap;\n}\n.fp-ui-form > input[data-v-5f1bec24] {\n  all: unset;\n  display: block;\n  position: relative;\n  width: 100%;\n  cursor: pointer;\n  box-sizing: border-box;\n  box-shadow: inset 0 0 0 2px currentColor;\n  padding: calc(var(--wcm-line-height) / 2);\n  margin-bottom: var(--wcm-line-height);\n}\n.fp-grid-coll-24-24[data-v-5f1bec24] {\n  width: 100%;\n}\n.fp-ui-button[data-v-5f1bec24] {\n  all: unset;\n  line-height: var(--wcm-line-height);\n  font-size: var(--wcm-font-size);\n  font-weight: 400;\n  margin: 0 auto;\n  cursor: pointer;\n  display: block;\n  box-sizing: border-box;\n  box-shadow: inset 0 0 0 2px currentColor;\n  padding: calc(var(--wcm-line-height) / 2) calc(var(--wcm-line-height));\n}";
 
 const _export_sfc = (sfc, props) => {
   const target = sfc.__vccOpts || sfc;
@@ -7756,7 +7756,7 @@ const _export_sfc = (sfc, props) => {
   return target;
 };
 
-const _withScopeId = (n) => (pushScopeId("data-v-1c4e690b"), n = n(), popScopeId(), n);
+const _withScopeId = (n) => (pushScopeId("data-v-5f1bec24"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "v-mail-signature-generator" };
 const _hoisted_2 = { class: "fp-grid-container" };
 const _hoisted_3 = { class: "fp-grid-coll-24-24 v-mail-signature-generator__child-no-margin" };
@@ -7792,7 +7792,7 @@ const _hoisted_11 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createBas
     height: "auto",
     style: { "font-family": "Helvetica, Arial, sans-serif", "padding-top": "15px", "line-height": "15px", "font-size": "12px", "color": "black" }
   }, [
-    /* @__PURE__ */ createTextVNode(" Rue Chantepoulet 1 "),
+    /* @__PURE__ */ createTextVNode(" Rue de Chantepoulet 1 "),
     /* @__PURE__ */ createBaseVNode("br"),
     /* @__PURE__ */ createTextVNode("1201 Gen\xE8ve ")
   ])
@@ -7894,7 +7894,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     ])
   ]);
 }
-const MailSignature = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["styles", [_style_0]], ["__scopeId", "data-v-1c4e690b"]]);
+const MailSignature = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["styles", [_style_0]], ["__scopeId", "data-v-5f1bec24"]]);
 
 function register() {
   customElements.define("mail-signature", defineCustomElement(MailSignature));

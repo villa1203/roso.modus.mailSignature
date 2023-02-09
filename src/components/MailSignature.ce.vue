@@ -47,7 +47,7 @@
                 <td height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
                 >
-                  Rue Chantepoulet 1
+                  Rue de Chantepoulet 1
                   <br>1201 Genève
                 </td>
               </tr>
