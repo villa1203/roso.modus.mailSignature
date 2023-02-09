@@ -118,7 +118,7 @@ export default defineComponent({
       selection.removeAllRanges()
       selection.addRange(range)
 
-      // todo: other methode to implement
+      // todo: can't copy style (html is string when past content in mail app)
       // function setClipboard(text) {
       //   const type = "text/html";
       //   const blob = new Blob(['<h1>'+text+'</h1>'], { type });
