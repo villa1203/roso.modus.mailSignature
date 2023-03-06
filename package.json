@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently --names 'webComponent,http-server' -c 'bgBlue.bold,bgMagenta.bold' 'vite build --watch --config vite.config.dev.ts --outDir docs/dist/' 'npm run run-sample'",
     "build": "run-p type-check build-only",
-    "build-only": "vite build",
+    "build-only": "vite build --outDir docs/dist",
     "type-check": "vue-tsc --noEmit",
     "run-sample": "http-server docs/"
   },
