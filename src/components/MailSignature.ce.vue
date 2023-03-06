@@ -47,7 +47,7 @@
                 <td height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
                 >
-                  Rue de Chantepoulet 1
+                  Rue de Chantepoulet 1–3
                   <br>1201 Genève
                 </td>
               </tr>
@@ -79,12 +79,10 @@
         <button
             @click="copySignatureInClipBoard"
             class="fp-ui-button"
-        >Selectionner le texte de signature</button>
+        >Sélectionner le texte de signature</button>
         <p>
-          Une fois le texte sélectionné
-          (le texte devient vert quand il est&nbsp;sélectionné),
-          copié le texte et collez-le dans votre<br>outil de messagerie mail,
-          dans les paramètres pour les signatures&nbsp;automatiques.
+          Une fois le texte sélectionné (le texte devient vert quand il est sélectionné), copiez-le et collez-le dans votre
+          <br>outil de messagerie mail, dans les paramètres de signatures automatiques.
         </p>
       </div>
 
