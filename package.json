@@ -2,7 +2,7 @@
   "name": "web-components-mailsignature",
   "version": "0.1.0",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "docs/dist/index.js",
   "scripts": {
     "dev": "concurrently --names 'webComponent,http-server' -c 'bgBlue.bold,bgMagenta.bold' 'vite build --watch --config vite.config.dev.ts --outDir docs/dist/' 'npm run run-sample'",
     "build": "run-p type-check build-only",
