@@ -2918,13 +2918,13 @@ const Es = (...e) => {
       return e.length > 0 ? e : t + " doit être rempli";
     }
   }
-}), Jo = `.v-mail-signature-generator[data-v-211ccda9]{--wcm-line-height: 20px;--wcm-font-size: 18px;max-width:30em;font-family:sans-serif;min-height:calc(100vh - 200px);padding-bottom:var(--wcm-line-height);font-size:var(--wcm-font-size);line-height:var(--wcm-line-height);margin:auto}.v-mail-signature-generator .v-mail-signature-generator__container[data-v-211ccda9]{padding:var(--wcm-line-height);margin-bottom:var(--wcm-line-height);background:white}.v-mail-signature-generator .v-mail-signature-generator__container>*[data-v-211ccda9]::-moz-selection{color:#20b2aa;background:#b0fdf6}.v-mail-signature-generator .v-mail-signature-generator__container>*[data-v-211ccda9] ::selection{color:#20b2aa;background:#b0fdf6}.v-mail-signature-generator .v-mail-signature-generator__container>table[data-v-211ccda9]{pointer-events:none}h1[data-v-211ccda9]{font-size:calc(var(--wcm-font-size) * 2);line-height:calc(var(--wcm-line-height) * 2)}.v-mail-signature-generator__child-no-margin>*[data-v-211ccda9]:first-child{margin-top:0}.v-mail-signature-generator__child-no-margin>*[data-v-211ccda9]:last-child{margin-bottom:0}.fp-grid-container[data-v-211ccda9],.fp-ui-form[data-v-211ccda9]{display:flex;flex-wrap:wrap}.fp-ui-form>input[data-v-211ccda9]{all:unset;display:block;position:relative;width:100%;cursor:pointer;box-sizing:border-box;box-shadow:inset 0 0 0 2px currentColor;padding:calc(var(--wcm-line-height) / 2);margin-bottom:var(--wcm-line-height)}.fp-grid-coll-24-24[data-v-211ccda9]{width:100%}.fp-ui-button[data-v-211ccda9]{all:unset;line-height:var(--wcm-line-height);font-size:var(--wcm-font-size);font-weight:400;margin:0 auto;cursor:pointer;display:block;box-sizing:border-box;box-shadow:inset 0 0 0 2px currentColor;padding:calc(var(--wcm-line-height) / 2) calc(var(--wcm-line-height))}
+}), Jo = `.v-mail-signature-generator[data-v-0cade7d0]{--wcm-line-height: 20px;--wcm-font-size: 18px;max-width:30em;font-family:sans-serif;min-height:calc(100vh - 200px);padding-bottom:var(--wcm-line-height);font-size:var(--wcm-font-size);line-height:var(--wcm-line-height);margin:auto}.v-mail-signature-generator .v-mail-signature-generator__container[data-v-0cade7d0]{padding:var(--wcm-line-height);margin-bottom:var(--wcm-line-height);background:white}.v-mail-signature-generator .v-mail-signature-generator__container>*[data-v-0cade7d0]::-moz-selection{color:#20b2aa;background:#b0fdf6}.v-mail-signature-generator .v-mail-signature-generator__container>*[data-v-0cade7d0] ::selection{color:#20b2aa;background:#b0fdf6}.v-mail-signature-generator .v-mail-signature-generator__container>table[data-v-0cade7d0]{pointer-events:none}h1[data-v-0cade7d0]{font-size:calc(var(--wcm-font-size) * 2);line-height:calc(var(--wcm-line-height) * 2)}.v-mail-signature-generator__child-no-margin>*[data-v-0cade7d0]:first-child{margin-top:0}.v-mail-signature-generator__child-no-margin>*[data-v-0cade7d0]:last-child{margin-bottom:0}.fp-grid-container[data-v-0cade7d0],.fp-ui-form[data-v-0cade7d0]{display:flex;flex-wrap:wrap}.fp-ui-form>input[data-v-0cade7d0]{all:unset;display:block;position:relative;width:100%;cursor:pointer;box-sizing:border-box;box-shadow:inset 0 0 0 2px currentColor;padding:calc(var(--wcm-line-height) / 2);margin-bottom:var(--wcm-line-height)}.fp-grid-coll-24-24[data-v-0cade7d0]{width:100%}.fp-ui-button[data-v-0cade7d0]{all:unset;line-height:var(--wcm-line-height);font-size:var(--wcm-font-size);font-weight:400;margin:0 auto;cursor:pointer;display:block;box-sizing:border-box;box-shadow:inset 0 0 0 2px currentColor;padding:calc(var(--wcm-line-height) / 2) calc(var(--wcm-line-height))}
 `, Yo = (e, t) => {
   const n = e.__vccOpts || e;
   for (const [s, r] of t)
     n[s] = r;
   return n;
-}, ve = (e) => (_i("data-v-211ccda9"), e = e(), bi(), e), ko = { class: "v-mail-signature-generator" }, Xo = { class: "fp-grid-container" }, Zo = { class: "fp-grid-coll-24-24 v-mail-signature-generator__child-no-margin" }, Qo = /* @__PURE__ */ ve(() => /* @__PURE__ */ I("h1", null, [
+}, ve = (e) => (_i("data-v-0cade7d0"), e = e(), bi(), e), ko = { class: "v-mail-signature-generator" }, Xo = { class: "fp-grid-container" }, Zo = { class: "fp-grid-coll-24-24 v-mail-signature-generator__child-no-margin" }, Qo = /* @__PURE__ */ ve(() => /* @__PURE__ */ I("h1", null, [
   /* @__PURE__ */ me("Générateur"),
   /* @__PURE__ */ I("br"),
   /* @__PURE__ */ me("de signature mail pour"),
@@ -3041,7 +3041,7 @@ function pl(e, t, n, s, r, i) {
                     I("a", {
                       href: "tel:" + e.tel,
                       style: { "text-decoration": "none", color: "black" }
-                    }, "T. " + st(e.getCleanedEmptyString(e.tel, "Votre numéro")), 9, ll),
+                    }, "T " + st(e.getCleanedEmptyString(e.tel, "Votre numéro")), 9, ll),
                     cl,
                     I("a", {
                       href: "mailto:" + e.mail,
@@ -3065,7 +3065,7 @@ function pl(e, t, n, s, r, i) {
     ])
   ]);
 }
-const gl = /* @__PURE__ */ Yo(qo, [["render", pl], ["styles", [Jo]], ["__scopeId", "data-v-211ccda9"]]);
+const gl = /* @__PURE__ */ Yo(qo, [["render", pl], ["styles", [Jo]], ["__scopeId", "data-v-0cade7d0"]]);
 function ml() {
   customElements.define("mail-signature", Lo(gl));
 }
