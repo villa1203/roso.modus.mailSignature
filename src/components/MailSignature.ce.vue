@@ -79,7 +79,7 @@
                        style="height: 45px; margin: 0; width: 145px; max-width: 145px; display: block;"
                        height="45"
                        width="145"
-                       src="https://fondation-plaza.github.io/mail.signature/LOGO-V2@1x.png"
+                       src="https://fondation-plaza.github.io/mail.signature/LOGO-cleaned--color-align.png"
                   >
                 </td>
               </tr>
