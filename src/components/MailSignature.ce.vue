@@ -11,6 +11,7 @@
           <input type="text" placeholder="nom"      v-model="name">
           <input type="text" placeholder="fonction" v-model="activity" >
           <input type="text" placeholder="numéro"   v-model="tel" >
+          <input type="text" placeholder="mail"     v-model="mail" >
         </form>
 
         <div
@@ -30,9 +31,9 @@
                 <td height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: black; padding: 0"
                 >
-                  {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}
+                  {{getCleanedEmptyString(firstname, 'Votre prénom')}} {{getCleanedEmptyString(name, '/ Votre nom')}}
                   <br>
-                  {{getCleanedEmptyString(activity, 'fonction')}}
+                  {{getCleanedEmptyString(activity, 'Votre fonction')}}
                 </td>
               </tr>
               <tr>
@@ -57,12 +58,15 @@
                     style="font-family:Helvetica, Arial, sans-serif; padding: 15px 0 0; line-height: 15px; font-size:12px; color:black;"
                 >
                   <a :href="'tel:' + tel"
-                     style="text-decoration: none"
-                  >{{getCleanedEmptyString(tel, 'numéro')}}</a>
+                     style="text-decoration: none; color: black;"
+                  >T. {{getCleanedEmptyString(tel, 'Votre numéro')}}</a>
+                  <br><a :href="'mailto:' + mail"
+                     style="text-decoration: none; color: black;"
+                  >{{getCleanedEmptyString(mail, 'Votre adresse mail')}}</a>
                   <br><a
                     href="https://leplaza-cinema.ch/"
-                    style="text-decoration: none"
-                >leplaza-cinema.ch</a>
+                    style="text-decoration: none; color: black;"
+                >www.leplaza-cinema.ch</a>
                 </td>
               </tr>
               <tr>
@@ -70,7 +74,7 @@
                     cellpadding="0"
                     cellspacing="0"
                     height="auto"
-                    style="padding: 15px 0 0"
+                    style="padding: 15px 0 0; border: 0;"
                 >
                   <img alt="logo plaza"
                        style="height: 45px; margin: 0; width: 144px; max-width: 144px"
@@ -107,6 +111,7 @@ export default defineComponent({
       name: '',
       activity: '',
       tel: '',
+      mail: '',
     }
   },
 
