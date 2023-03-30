@@ -73,12 +73,14 @@
                 <td border="0"
                     cellpadding="0"
                     cellspacing="0"
-                    height="auto"
-                    style="padding: 15px 0 0; border: 0;"
+                    style="padding: 15px 0 0; border: 0; height: 45px; width: 145px; max-width: 145px;"
                 >
                   <img alt="logo plaza"
-                       style="height: 45px; margin: 0; width: 144px; max-width: 144px"
-                       src="https://fondation-plaza.github.io/mail.signature/LOGO@0-5x.png" >
+                       style="height: 45px; margin: 0; width: 145px; max-width: 145px; display: block;"
+                       height="45"
+                       width="145"
+                       src="https://fondation-plaza.github.io/mail.signature/LOGO-V2@2x.png"
+                  >
                 </td>
               </tr>
               </tbody>
