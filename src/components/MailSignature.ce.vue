@@ -78,7 +78,7 @@
                 >
                   <img alt="logo plaza"
                        style="height: 45px; margin: 0; width: 144px; max-width: 144px"
-                       src="https://fondation-plaza.github.io/mail.signature/LOGO@0-5x.svg" >
+                       src="https://fondation-plaza.github.io/mail.signature/LOGO@0-5x.png" >
                 </td>
               </tr>
               </tbody>
