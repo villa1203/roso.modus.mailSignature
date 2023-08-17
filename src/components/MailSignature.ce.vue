@@ -2,7 +2,7 @@
   <div class="v-mail-signature-generator">
     <div class="fp-grid-container">
       <div class="fp-grid-coll-24-24 v-mail-signature-generator__child-no-margin">
-        <h1>Générateur<br/>de signature mail&nbsp;pour<br/>la Fondation&nbsp;Plaza</h1>
+        <h1>Générateur<br/>de signature mail&nbsp;pour<br/>la Fondation&nbsp;Modus</h1>
 
         <form
             class="v-mail-signature-generator__content fp-ui-form"
@@ -29,18 +29,19 @@
               <tbody>
               <tr>
                 <td height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: black; padding: 0"
-                >
+                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: rgb(53, 113, 101); padding: 0;"
+                ><strong>
                   {{getCleanedEmptyString(firstname, 'Votre prénom')}} {{getCleanedEmptyString(name, '/ Votre nom')}}
                   <br>
                   {{getCleanedEmptyString(activity, 'Votre fonction')}}
-                </td>
+                </strong></td>
               </tr>
               <tr>
                 <td
                     height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding: 15px 0 0;color: black"
-                ><strong>Fondation Plaza</strong>
+                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding: 15px 0 0;color: rgb(53, 113, 101)"
+                ><strong>Fondation MODUS,
+                    <br>pour une mobilité durable à Genève</strong>
                 </td>
               </tr>
 
@@ -48,8 +49,8 @@
                 <td height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; padding: 0; line-height: 15px; font-size:12px; color:black;"
                 >
-                  Rue de Chantepoulet 1–3
-                  <br>1201 Genève
+                    Route de la Galaise 17
+                    <br>1228 Plan-les-Ouates
                 </td>
               </tr>
 
@@ -64,9 +65,9 @@
                      style="text-decoration: none; color: black;"
                   >{{getCleanedEmptyString(mail, 'Votre adresse mail')}}</a>
                   <br><a
-                    href="https://leplaza-cinema.ch/"
+                    href="#"
                     style="text-decoration: none; color: black;"
-                >www.leplaza-cinema.ch</a>
+                >temp adress</a>
                 </td>
               </tr>
               <tr>
@@ -75,11 +76,11 @@
                     cellspacing="0"
                     style="padding: 15px 0 0; border: 0; height: 45px; width: 145px; max-width: 145px;"
                 >
-                  <img alt="logo plaza"
+                  <img alt="logo modus"
                        style="height: 45px; margin: 0; width: 145px; max-width: 145px; display: block;"
                        height="45"
                        width="145"
-                       src="https://fondation-plaza.github.io/mail.signature/LOGO-FP_signature_V2.png"
+                       src="https://villa1203.github.io/roso.modus.mailSignature/modus_logo.png"
                   >
                 </td>
               </tr>
