@@ -64,10 +64,6 @@
                   <br><a :href="'mailto:' + mail"
                      style="text-decoration: none; color: black;"
                   >{{getCleanedEmptyString(mail, 'Votre adresse mail')}}</a>
-                  <br><a
-                    href="#"
-                    style="text-decoration: none; color: black;"
-                >temp adress</a>
                 </td>
               </tr>
               <tr>
