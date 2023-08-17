@@ -29,18 +29,18 @@
               <tbody>
               <tr>
                 <td height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: rgb(53, 113, 101); padding: 0;"
-                ><strong>
-                  {{getCleanedEmptyString(firstname, 'Votre prénom')}} {{getCleanedEmptyString(name, '/ Votre nom')}}
+                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: rgb(0, 103, 0); padding: 0;"
+                >
+                  <strong>{{getCleanedEmptyString(firstname, 'Votre prénom')}} {{getCleanedEmptyString(name, '/ Votre nom')}}</strong>
                   <br>
                   {{getCleanedEmptyString(activity, 'Votre fonction')}}
-                </strong></td>
+                </td>
               </tr>
               <tr>
                 <td
                     height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding: 15px 0 0;color: rgb(53, 113, 101)"
-                ><strong>Fondation MODUS,
+                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding: 15px 0 0;color: rgb(0, 103, 0)"
+                ><strong>Fondation Modus,
                     <br>pour une mobilité durable à Genève</strong>
                 </td>
               </tr>
