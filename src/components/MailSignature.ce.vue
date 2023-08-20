@@ -47,15 +47,6 @@
 
               <tr>
                 <td height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; padding: 0; line-height: 15px; font-size:12px; color:black;"
-                >
-                    Route de la Galaise 17
-                    <br>1228 Plan-les-Ouates
-                </td>
-              </tr>
-
-              <tr>
-                <td height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; padding: 15px 0 0; line-height: 15px; font-size:12px; color:black;"
                 >
                   <a :href="'tel:' + tel"
