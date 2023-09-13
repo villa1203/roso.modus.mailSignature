@@ -67,7 +67,7 @@
                        style="height: 45px; margin: 0; width: 145px; max-width: 145px; display: block;"
                        height="45"
                        width="145"
-                       src="https://villa1203.github.io/roso.modus.mailSignature/modus_logo.png"
+                       src="https://villa1203.github.io/roso.modus.mailSignature/logo_modus.png"
                   >
                 </td>
               </tr>
